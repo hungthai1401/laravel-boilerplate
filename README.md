@@ -13,3 +13,4 @@ chmod a+x fresh
 - [Laravel Sail](https://laravel.com/docs/9.x/sail)
 - [Laravel IDE Helper](https://github.com/barryvdh/laravel-ide-helper)
 - [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar)
+- [Coding standard for PHP CodeSniffer](https://github.com/Eveio/coding-standard)
