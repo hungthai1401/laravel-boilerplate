@@ -3,6 +3,7 @@
 Open terminal from the root of project and run:
 
 ```shell
+composer install
 chmod a+x fresh
 ./fresh
 ```
