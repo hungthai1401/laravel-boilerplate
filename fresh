@@ -4,6 +4,12 @@ RED='\033[0;31m'
 LIGHTGREEN='\033[1;32m'
 YELLOW='\033[1;33m'
 
+if [ ! -f '.env' ]; then
+    echo -e "${RED}.env dose not exists."
+    echo -e "${LIGHTGREEN}Creating .env from .env.example"
+    cp .env.example .env
+fi
+
 read -p $'\e[36mEnter your app port: ' appPort
 appPort=${appPort:-8000}
 
